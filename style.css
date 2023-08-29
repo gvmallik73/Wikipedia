@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://images.hindustantimes.com/tech/img/2020/09/24/960x540/Untitled_design_(12)_1600925482551_1600925492949.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#searchResults {
+    margin-top: 20px;
+    text-align: left;   
+}
+
+#searchResults ul {
+    list-style: none;
+    padding: 0;   
+}
+
+#searchResults li {
+    margin-bottom: 10px;
+}
